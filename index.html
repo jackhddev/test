@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Bitcoin Value</title>
+</head>
+
+<body>
+
+    <!--Container-->
+    <div class="page-contain">
+
+        <a href="#" class="data-card">
+            <h3 class='curr'>Currency</h3>
+            <h5 class='country'></h5>
+            <br>
+            <h4 class='15m'>15m:</h4>
+            <h4 class='last'>Last:</h4>
+            <h4 class='buy'>Buy:</h4>
+            <h4 class='sell'>Sell:</h4>
+            <select class='selCurr'><option>Select A Currency</option></select>
+        </a>
+        <a href="#" class="data-card">
+            <h3>Value</h3>
+            <br>
+            <select class='selCurr2'><option>Select A Currency</option></select>
+            <br>
+            <form>
+                <input type='number' class='value' placeholder="Enter An Amount" min='1' required>
+                <br><br>
+                <button class='run'>Calculate</button>
+                <br><br>
+            </form>
+            <h5 class='result'></h5>
+        </a>
+    </div>
+
+
+    <!--Scripts-->
+    <script src="./script.js"></script>
+</body>
+
+</html>
